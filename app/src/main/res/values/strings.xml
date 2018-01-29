@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Mobile Mushaf</string>
+    <string name="view_verify">Mushaf Verification</string>
+    <string name="view_report">Lodge Report</string>
+    <string name="view_source">View Source Code</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque imperdiet luctus cursus. Aenean pellentesque egestas odio et tristique. Pellentesque aliquet volutpat suscipit. Nam vehicula arcu ut magna porta viverra.\n
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque imperdiet luctus cursus. Aenean pellentesque egestas odio et tristique. Pellentesque aliquet volutpat suscipit. Nam vehicula arcu ut magna porta viverra.\n
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque imperdiet luctus cursus. Aenean pellentesque egestas odio et tristique. Pellentesque aliquet volutpat suscipit. Nam vehicula arcu ut magna porta viverra.</string>
+    <string name="new_verify">New Verification</string>
+    <string name="visit_group_link">Visit Group Link</string>
+    <string name="group_logo_desc">Group Logo</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_verify">Verify</string>
+    <string name="label_send_report">Report</string>
+    <string name="action_new_report">New Report</string>
+    <string name="hint_user_email">Email Address</string>
+    <string name="hint_user_name">Name</string>
+    <string name="hint_user_location">Address</string>
+    <string name="action_send_report">Send Report</string>
+</resources>

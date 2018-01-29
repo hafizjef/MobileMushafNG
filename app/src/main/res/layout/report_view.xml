@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="vm"
+            type="com.hafizjef.mushafng.viewmodel.ReportViewModel" />
+    </data>
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:spanCount="1"
+            app:layoutManager="GridLayoutManager"
+            tools:listitem="@layout/home_item" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnlol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="@{(v) -> vm.onBtnClick.onClick(v)}"
+            android:text="@string/action_new_report"
+            android:textColor="#fff" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</layout>

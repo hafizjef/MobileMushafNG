@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_feature"
+        android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/nav_drawer_verify"
+            android:icon="@drawable/ic_camera_alt_black_24dp"
+            android:title="@string/label_verify" />
+        <item
+            android:id="@+id/nav_drawer_report"
+            android:icon="@drawable/ic_send_black_24dp"
+            android:title="@string/label_send_report" />
+    </group>
+    <group
+        android:id="@+id/group_settings"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_drawer_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/label_settings"
+            android:checkable="false" />
+    </group>
+
+</menu>
