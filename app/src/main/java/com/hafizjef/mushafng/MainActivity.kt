@@ -17,7 +17,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     private val container by lazy { controller_container as ViewGroup }
-    lateinit private var router: Router
+    private lateinit var router: Router
 
     private var drawerArrow: DrawerArrowDrawable? = null
 

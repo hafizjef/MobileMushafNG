@@ -33,6 +33,6 @@ class HomeViewModel {
      * Simple comunnicator between ViewModel to View
      */
     interface OnItemClick {
-        fun onClick(item: Group, index: Int)
+        fun onClick(item: Group?, index: Int)
     }
 }

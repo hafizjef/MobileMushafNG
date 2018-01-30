@@ -30,6 +30,7 @@
             android:background="@drawable/gradient"
             android:foreground="?attr/selectableItemBackground"
             android:text="@string/new_verify"
+            android:onClick="@{vm.onClick}"
             android:textColor="#fff" />
     </LinearLayout>
 </layout>

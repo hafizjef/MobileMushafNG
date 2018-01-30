@@ -23,7 +23,7 @@ class HomeController : Controller() {
      * Home last adapter item click listener
      */
     private val itemClickListener = object : HomeViewModel.OnItemClick {
-        override fun onClick(item: Group, index: Int) {
+        override fun onClick(item: Group?, index: Int) {
             val bundle = Bundle()
             bundle.putInt(DetailController.GROUP_INDEX_KEY, index)
             val transaction = RouterTransaction
